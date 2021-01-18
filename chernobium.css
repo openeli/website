@@ -1,0 +1,617 @@
+@charset "utf-8";
+
+header, nav, main, footer { display: block; }
+
+#wrapper { 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 80%;
+	background-color: #FFFFFF;
+	min-width: 900px;
+	max-width: 1280px;
+	box-shadow: 5px 5px 20px 2px #A0A0A0;
+}
+
+
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+}
+
+
+.topnav {
+		padding: 0.5em;
+		background-color: #333333;
+	}
+	
+
+
+main {
+	background-color: #FFFFFF;
+	height: auto;
+}
+
+h2 { 
+	text-align: left;
+	font-family: Ubuntu; 
+	font-size: 24px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 15.4px; 
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 6.5em;
+	padding-right: 6.5em;
+	background-color: #FFFFFF;
+} 
+
+
+h3 { 
+	text-align: left;
+	font-family: Ubuntu; 
+	font-size: 18px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 15.4px; 
+	padding-left: 6.5em;
+	padding-right: 6.5em;
+	background-color: #FFFFFF;
+} 
+
+p { 
+	font-family: Ubuntu; 
+	font-size: 14px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 20px;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #FFFFFF;
+	
+} 
+	
+article {
+	font-family: Ubuntu; 
+	font-size: 14px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 400; 
+	line-height: 20px;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	background-color: #FFFFFF;
+	
+}
+
+
+
+#chernobiumcurrency {
+	background-image: url("chernobiumcurrency.png");
+	background-size: 100% 100%;
+	height: 200px;
+	width: 400px;
+	float: right;
+}
+
+#app {
+	background-image: url("app.PNG");
+	background-repeat: no-repeat;
+	background-size: 55% 55%;
+	margin: 1.1em;
+	height: 252px;
+	width: 254px;
+	float: right;
+}
+
+
+#linux {
+	background-image: url("linux.PNG");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 1.1em;
+	margin-right: 2.1em;
+	height: 93px;
+	width: 100px;
+	float: right;
+}
+
+
+#reactor {
+	background-image: url("reactor4.png");
+	background-size: 100% 100%;
+	margin: 1.1em;
+	height: 270px;
+	width: 255px;
+	float: right;
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#chernobyl {
+	background-image: url("chernobyl.jpg");
+	background-size: 100% 100%;
+	margin: 1.1em;
+	height: 240px;
+	width: 320px;
+	float: right;
+}
+
+
+#mobile { 
+	display: none; 
+}
+
+#desktop { 
+	display: inline; 
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 12px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 0;
+	width: 3em;
+	height: 5.3em;
+	
+}
+
+/*
+.bg-div {
+   background:#333;
+   overflow: hidden;
+   float: left;
+}
+
+*/
+
+li a:hover {
+  background-color: #111;
+  color: #a0a0a0;
+}
+
+.active {
+  background-color: #E78200;
+ 
+}
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ff8a24;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+	margin-left: 12em;
+	margin-bottom: 2em;
+	float: left;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+code {
+  font-family: monospace;
+  margin-left: 4em;
+  margin: 1.2em;
+}
+
+footer {
+        background-color: #FAFAFA;
+		color: c1c1c1;
+        font-size: 0.8em;
+        text-align: center;
+        font-style: italic;
+		padding-bottom: 14px;
+		padding-top: 12px;
+		border-top: 1px solid #F0F0F0 ;
+	
+}
+
+
+
+/* Landscape view -->*/
+
+@media only screen and (max-width: 1024px) {
+	body { 
+	background-image: none;
+	margin: 0; }
+	
+	#wrapper {
+		width: auto;
+		min-width: 0;
+		margin: 0;
+		padding: 0;
+		box-shadow: none;
+	}
+	
+	header {
+		border-bottom: 5px;
+		border-bottom-style: solid;
+		border-bottom-color: none;
+	}
+	
+	h1 {
+		margin-top: 0;
+		margin-bottom: 1em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		font-size: 2.5em;
+	}
+	
+	nav {
+		float: none;
+		width: auto;
+		padding-top: 0;
+		margin: 10px;
+		font-size: 2em;
+	
+	}
+	
+	nav li {
+		display: inline-block;
+	}
+	
+	nav a {
+		padding: 1em;
+		width: 8em;
+		font-weight: bold;
+		border-style: none;
+	
+	}
+	
+	nav ul {
+		padding: 0;
+		margin: 0;
+	}
+	
+	
+	
+	main {
+		margin: 0;
+		font-size: 90%;
+	}
+	
+	
+}
+
+/*<-- END of Landscape view*/
+
+/* Smartphone view -->*/
+
+@media only screen and (max-width: 768px) {
+	header {
+		background-image: none;
+		height: 0; }
+	h1 {
+		font-size: 2em;
+		text-align: center; 
+		padding-left: 0;
+	
+	}
+	nav {
+		background-color: #333333;
+		padding: #333333;
+		border: 4em;
+	}
+	
+	
+	
+	nav a {
+		display: block;
+		font-size: 1.5em;
+		padding: 0.7em;
+		width: auto;
+		border-bottom: 4em;
+		border-bottom-color: #FAFAFA;
+	}
+	
+	nav li {
+		display: inline;
+		
+		
+	}
+	main {
+		padding-top: 0;
+	}
+	
+	h2 {
+	padding-top: 0.5em;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0.5em;
+	margin-right: 0.5em;
+	}
+	
+
+	h2 {
+		font-size: 2em;
+		text-align: center; 
+		padding-bottom: 10px;
+		padding-top: 10px;
+		line-height: 46px;
+	
+	}
+	
+	h3 {
+		font-size: 1em;
+		text-align: left; 
+		line-height: 24px;
+	
+	}
+	
+	
+	p {
+		font-size: 14px;
+		text-align: left; 
+		line-height: 24px;
+	
+	}
+	
+	
+	article {
+		font-family: Ubuntu; 
+		font-size: 16px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 400; 
+		line-height: 20px;
+		padding-left: 3em;
+		padding-right: 3em;
+		padding-top: 1em;
+		padding-bottom: 0.5em;
+		background-color: #FFFFFF;
+	
+	}
+	
+}
+		
+	
+	.floatright {
+		padding-left: 0.5em;
+		padding-right: 0.5em;
+	}
+	
+	#mobile {
+		display: inline;
+	}
+	
+	#desktop {
+		display: none;
+	}
+	
+	
+}
+
+/*<-- End of Smartphone view*/
+
+
+#tfheader{
+		background-color: #E78200;
+	}
+	#tfnewsearch{
+		float:right;
+		padding: 1em;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:16px;
+		border:1px solid #ff8a24;
+		border-right:0px;
+		border-top-left-radius: 5px 5px;
+		border-bottom-left-radius: 5px 5px;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 5px 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #E78200; 
+		border-right:0px;
+		background: #E78200;
+		background: -webkit-gradient(linear, left top, left bottom, from(#E78200), to(#FFBB33));
+		background: -moz-linear-gradient(top,  #E78200,  #FFBB33);
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: #E78200;
+		background: -webkit-gradient(linear, left top, left bottom, from(#ffbb33), to(#E78200));
+		background: -moz-linear-gradient(top,  #FFBB33,  #E78200);
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=code], select, textarea {
+  width: 100%; 
+  padding: 1em;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 1em; 
+  margin-bottom: 1em;
+  resize: vertical;
+}
+
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	border:1px solid #ff8a24;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+	margin-left: 0;
+	margin-bottom: 2em;
+	float: center-left;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	float: center-left;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+
+
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 1em;
+}
+
+
+
+
+/* Table --> */
+
+table {
+  margin-left: 1.1em;
+  margin-right: 1.1em;
+  margin-bottom: none;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
+  width: auto;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #c0c0c0;
+  border-style: solid;
+  color: #000000;
+  float: top-right-radius;
+}
+
+table td, table th {
+  border-width: 2px;
+  border-color: #c0c0c0;
+  border-style: solid;
+  padding: 5px;
+}
+
+table thead {
+  background-color: #efefef;
+}
+</style>
+
+/* <-- Table */
